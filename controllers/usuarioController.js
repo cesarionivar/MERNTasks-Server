@@ -1,1 +1,3 @@
-exports.crearUsuario = (req, res) => {};
+exports.crearUsuario = (req, res) => {
+  console.log(req.body);
+};
